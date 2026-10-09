@@ -1,0 +1,2 @@
+documents,tokens_before,tokens_after,token_reduction_pct,vocab_before,vocab_after,vocab_reduction_pct,avg_tokens_before,avg_tokens_after
+350,2610,1127,56.8,202,164,18.8,7.46,3.22

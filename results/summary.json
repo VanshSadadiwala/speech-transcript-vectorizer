@@ -1,0 +1,31 @@
+{
+  "preprocessing": {
+    "documents": 350,
+    "tokens_before": 2610,
+    "tokens_after": 1127,
+    "token_reduction_pct": 56.8,
+    "vocab_before": 202,
+    "vocab_after": 164,
+    "vocab_reduction_pct": 18.8,
+    "avg_tokens_before": 7.46,
+    "avg_tokens_after": 3.22
+  },
+  "matrix": {
+    "documents": 350,
+    "vocab_size_before_pruning": 164,
+    "bow_features": 164,
+    "collocation_features": 63,
+    "total_features": 227,
+    "non_zero_entries": 1558,
+    "sparsity_pct": 98.04,
+    "avg_nonzero_per_doc": 4.45
+  },
+  "defaults": {
+    "min_df": 1,
+    "min_freq": 5,
+    "pmi_threshold": 3.0,
+    "ngram_sizes": [
+      2
+    ]
+  }
+}

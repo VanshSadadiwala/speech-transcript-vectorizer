@@ -1,0 +1,5 @@
+configuration,bow_features,collocation_features,total_features,sparsity_pct,cv_accuracy,cv_acc_std,cv_macro_f1,lowdata_accuracy,lowdata_macro_f1
+BoW only,164,0,164,98.05,1.0,0.0,1.0,0.8864,0.8864
+BoW + ALL bigrams (no PMI filter),164,236,400,98.65,1.0,0.0,1.0,0.8829,0.8838
+BoW + PMI bigrams,164,63,227,98.04,0.9971,0.0057,0.9971,0.8864,0.8864
+BoW + PMI bigrams + trigrams,164,90,254,98.05,0.9971,0.0057,0.9971,0.8864,0.8864
